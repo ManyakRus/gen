@@ -1,0 +1,1 @@
+gen --sqltype=postgres --connstr "host=10.1.9.153 user=claim password= dbname=kol_atom_ul_uni port=5432 sslmode=disable TimeZone=UTC" --database="stack" --module=example.com/example --json --gorm

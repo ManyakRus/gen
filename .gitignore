@@ -43,3 +43,5 @@ example/daos/
 example/models/
 tests/
 .env
+/test_rapira.sh
+/test_stack.sh

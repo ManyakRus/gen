@@ -28,13 +28,12 @@ require (
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/lib/pq v1.10.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
-	github.com/mattn/go-sqlite3 v2.0.3+incompatible
+	github.com/mattn/go-sqlite3 v1.14.16
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/ompluscator/dynamic-struct v1.3.0
 	github.com/prometheus/client_golang v0.9.3 // indirect
 	github.com/rogpeppe/go-internal v1.10.0 // indirect
 	github.com/serenize/snaker v0.0.0-20171204205717-a683aaf2d516
-	github.com/smallnest/gen v0.9.29 // indirect
 	github.com/soheilhy/cmux v0.1.4 // indirect
 	github.com/spf13/cobra v1.7.0 // indirect
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect

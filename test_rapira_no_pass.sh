@@ -1,0 +1,1 @@
+gen --sqltype=postgres --connstr "host=10.1.9.23 user=dev password= dbname=claim port=5432 sslmode=disable TimeZone=UTC" --database "claim" --module=example.com/example --json --gorm
