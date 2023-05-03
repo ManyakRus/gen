@@ -59,6 +59,12 @@ func Replace(nameFormat, name string) string {
 	//fmt.Printf("Replace: %s\n",nameFormat)
 	t := template.Must(template.New("t1").Funcs(replaceFuncMap).Parse(nameFormat))
 
+	//sanek start
+	if name[0:1] == "$" {
+		name = name[1:] + "$"
+	}
+	//sanek end
+
 	if err := t.Execute(&tpl, name); err != nil {
 		//fmt.Printf("Error creating name format: %s error: %v\n", nameFormat, err)
 		return name
